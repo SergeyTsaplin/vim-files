@@ -5,9 +5,11 @@ Requirements
 ------------
 
 This configuration required on follow plugins:
+  * [Pathogen](https://github.com/tpope/vim-pathogen)
   * [NERDTree](https://github.com/scrooloose/nerdtree)
+  * [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
+  * [Syntastic](https://github.com/scrooloose/syntastic)
   * [functionlist](https://github.com/vim-scripts/functionlist.vim)
-
 
 How to use
 ----------
