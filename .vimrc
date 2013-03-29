@@ -87,7 +87,7 @@ endif
 "
 if has('win32')
   set encoding=cp1251
-  set fencs=cp1251,utf8,cp866
+  set fencs=utf8,cp1251,cp866
 else
   set encoding=utf8
   set termencoding=utf8
@@ -154,9 +154,9 @@ imap <C-b>, \c space
 
 
 "
-" Show/hide function list panel
+" Show/hide Tagbar panel
 "
-map <F2> :Flisttoggle<CR>
+map <F2> :TagbarToggle<CR>
 
 
 "
