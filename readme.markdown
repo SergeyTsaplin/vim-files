@@ -12,7 +12,30 @@ This configuration required on follow plugins:
   * [tagbar](https://github.com/majutsushi/tagbar)
   * [python](https://github.com/vim-scripts/python.vim)
   * [django.vim](https://github.com/vim-scripts/django.vim)
-  * [git.vim](https://github.com/motemen/git-vim)
+  * [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
+  * [vim-fugitive](https://github.com/tpope/vim-fugitive)
+
+Installation
+------------
+
+  * On Linux/MacOS
+
+        cd ~
+        git clone https://github.com/SergeyTsaplin/vim-files.git ~/.vim
+        ln -s ~/.vim/vimrc ~/.vimrc
+        cd ~/.vim
+        git submodule init
+        git submodule update
+
+  * On Windows
+
+        cd %USERPROFILE%
+        git clone https://github.com/SergeyTsaplin/vim-files.git vimfiles
+        cp vimfiles\vimrc %USERPROFILE%\_vimrc
+        cd vimfiles
+        git submodule init
+        git submodule update
+
 
 How to use
 ----------
