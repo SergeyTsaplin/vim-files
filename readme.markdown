@@ -36,19 +36,22 @@ Installation
         git submodule init
         git submodule update
 
+How to update
+-------------
+
+    git submodule foreach git pull origin master
 
 How to use
 ----------
 
-To use this configuration move _.vimrc_ file to your home dir ($HOME or %HOME% in Windows) and install required plugins.
-
-In Windows you also have to rename _.vimrc_ to _&#95;vimrc_ and _.vim_ directory to _vimfiles_
-
 This is basic hotkeys for features access:
 
-* _Ctrl+N (&lt;C-n&gt;)_ toggle NERDTree panel
+* _Ctrl+n (&lt;C-n&gt;)_ toggle NERDTree panel
 * _F2 (&lt;F2&gt;)_ toggle Tagbar panel
-* _Ctrl+K Ctrl+P_ Puts full file path to system buffer
+* _Ctrl+k Ctrl+p_ Puts full file path to system buffer
+* _Ctrl+d (&lt;C-d&gt;)_ put next cursor on the same word (multiple cursors)
+* _Ctrl+Tab_ switch to the next tabview
+* _Ctrl+Shift+Tab_ switch to the previous tabview
 
 Notices
 -------
